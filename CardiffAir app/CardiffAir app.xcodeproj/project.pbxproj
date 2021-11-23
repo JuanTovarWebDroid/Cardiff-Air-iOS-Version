@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7438867926F59B43005389E4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438867826F59B43005389E4 /* Tests_iOS.swift */; };
+		7438868426F59B43005389E4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438868326F59B43005389E4 /* Tests_macOS.swift */; };
+		7438868626F59B43005389E4 /* CardiffAir_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438865D26F59B40005389E4 /* CardiffAir_appApp.swift */; };
+		7438868726F59B43005389E4 /* CardiffAir_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438865D26F59B40005389E4 /* CardiffAir_appApp.swift */; };
+		7438868826F59B43005389E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438865E26F59B40005389E4 /* ContentView.swift */; };
+		7438868926F59B43005389E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438865E26F59B40005389E4 /* ContentView.swift */; };
+		7438868A26F59B43005389E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7438865F26F59B43005389E4 /* Assets.xcassets */; };
+		7438868B26F59B43005389E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7438865F26F59B43005389E4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7438867526F59B43005389E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7438865826F59B40005389E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7438866326F59B43005389E4;
+			remoteInfo = "CardiffAir app (iOS)";
+		};
+		7438868026F59B43005389E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7438865826F59B40005389E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7438866B26F59B43005389E4;
+			remoteInfo = "CardiffAir app (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7438865D26F59B40005389E4 /* CardiffAir_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiffAir_appApp.swift; sourceTree = "<group>"; };
+		7438865E26F59B40005389E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7438865F26F59B43005389E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7438866426F59B43005389E4 /* CardiffAir app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardiffAir app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7438866726F59B43005389E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7438866C26F59B43005389E4 /* CardiffAir app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardiffAir app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7438866E26F59B43005389E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7438866F26F59B43005389E4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7438867426F59B43005389E4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7438867826F59B43005389E4 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		7438867A26F59B43005389E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7438867F26F59B43005389E4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7438868326F59B43005389E4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7438868526F59B43005389E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7438866126F59B43005389E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438866926F59B43005389E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438867126F59B43005389E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438867C26F59B43005389E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7438865726F59B40005389E4 = {
+			isa = PBXGroup;
+			children = (
+				7438865C26F59B40005389E4 /* Shared */,
+				7438866626F59B43005389E4 /* iOS */,
+				7438866D26F59B43005389E4 /* macOS */,
+				7438867726F59B43005389E4 /* Tests iOS */,
+				7438868226F59B43005389E4 /* Tests macOS */,
+				7438866526F59B43005389E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7438865C26F59B40005389E4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7438865D26F59B40005389E4 /* CardiffAir_appApp.swift */,
+				7438865E26F59B40005389E4 /* ContentView.swift */,
+				7438865F26F59B43005389E4 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7438866526F59B43005389E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7438866426F59B43005389E4 /* CardiffAir app.app */,
+				7438866C26F59B43005389E4 /* CardiffAir app.app */,
+				7438867426F59B43005389E4 /* Tests iOS.xctest */,
+				7438867F26F59B43005389E4 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7438866626F59B43005389E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7438866726F59B43005389E4 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7438866D26F59B43005389E4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7438866E26F59B43005389E4 /* Info.plist */,
+				7438866F26F59B43005389E4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7438867726F59B43005389E4 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7438867826F59B43005389E4 /* Tests_iOS.swift */,
+				7438867A26F59B43005389E4 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7438868226F59B43005389E4 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7438868326F59B43005389E4 /* Tests_macOS.swift */,
+				7438868526F59B43005389E4 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7438866326F59B43005389E4 /* CardiffAir app (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7438868E26F59B43005389E4 /* Build configuration list for PBXNativeTarget "CardiffAir app (iOS)" */;
+			buildPhases = (
+				7438866026F59B43005389E4 /* Sources */,
+				7438866126F59B43005389E4 /* Frameworks */,
+				7438866226F59B43005389E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardiffAir app (iOS)";
+			productName = "CardiffAir app (iOS)";
+			productReference = 7438866426F59B43005389E4 /* CardiffAir app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7438866B26F59B43005389E4 /* CardiffAir app (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7438869126F59B43005389E4 /* Build configuration list for PBXNativeTarget "CardiffAir app (macOS)" */;
+			buildPhases = (
+				7438866826F59B43005389E4 /* Sources */,
+				7438866926F59B43005389E4 /* Frameworks */,
+				7438866A26F59B43005389E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardiffAir app (macOS)";
+			productName = "CardiffAir app (macOS)";
+			productReference = 7438866C26F59B43005389E4 /* CardiffAir app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7438867326F59B43005389E4 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7438869426F59B43005389E4 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				7438867026F59B43005389E4 /* Sources */,
+				7438867126F59B43005389E4 /* Frameworks */,
+				7438867226F59B43005389E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7438867626F59B43005389E4 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7438867426F59B43005389E4 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7438867E26F59B43005389E4 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7438869726F59B43005389E4 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				7438867B26F59B43005389E4 /* Sources */,
+				7438867C26F59B43005389E4 /* Frameworks */,
+				7438867D26F59B43005389E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7438868126F59B43005389E4 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 7438867F26F59B43005389E4 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7438865826F59B40005389E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7438866326F59B43005389E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7438866B26F59B43005389E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7438867326F59B43005389E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7438866326F59B43005389E4;
+					};
+					7438867E26F59B43005389E4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7438866B26F59B43005389E4;
+					};
+				};
+			};
+			buildConfigurationList = 7438865B26F59B40005389E4 /* Build configuration list for PBXProject "CardiffAir app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7438865726F59B40005389E4;
+			productRefGroup = 7438866526F59B43005389E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7438866326F59B43005389E4 /* CardiffAir app (iOS) */,
+				7438866B26F59B43005389E4 /* CardiffAir app (macOS) */,
+				7438867326F59B43005389E4 /* Tests iOS */,
+				7438867E26F59B43005389E4 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7438866226F59B43005389E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7438868A26F59B43005389E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438866A26F59B43005389E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7438868B26F59B43005389E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438867226F59B43005389E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438867D26F59B43005389E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7438866026F59B43005389E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7438868826F59B43005389E4 /* ContentView.swift in Sources */,
+				7438868626F59B43005389E4 /* CardiffAir_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438866826F59B43005389E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7438868926F59B43005389E4 /* ContentView.swift in Sources */,
+				7438868726F59B43005389E4 /* CardiffAir_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438867026F59B43005389E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7438867926F59B43005389E4 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7438867B26F59B43005389E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7438868426F59B43005389E4 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7438867626F59B43005389E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7438866326F59B43005389E4 /* CardiffAir app (iOS) */;
+			targetProxy = 7438867526F59B43005389E4 /* PBXContainerItemProxy */;
+		};
+		7438868126F59B43005389E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7438866B26F59B43005389E4 /* CardiffAir app (macOS) */;
+			targetProxy = 7438868026F59B43005389E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7438868C26F59B43005389E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7438868D26F59B43005389E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7438868F26F59B43005389E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSASURF584;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.CardiffAir-app";
+				PRODUCT_NAME = "CardiffAir app";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7438869026F59B43005389E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSASURF584;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.CardiffAir-app";
+				PRODUCT_NAME = "CardiffAir app";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7438869226F59B43005389E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.CardiffAir-app";
+				PRODUCT_NAME = "CardiffAir app";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7438869326F59B43005389E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.CardiffAir-app";
+				PRODUCT_NAME = "CardiffAir app";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7438869526F59B43005389E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardiffAir app (iOS)";
+			};
+			name = Debug;
+		};
+		7438869626F59B43005389E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardiffAir app (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7438869826F59B43005389E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CardiffAir app (macOS)";
+			};
+			name = Debug;
+		};
+		7438869926F59B43005389E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "JuanTovar.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CardiffAir app (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7438865B26F59B40005389E4 /* Build configuration list for PBXProject "CardiffAir app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7438868C26F59B43005389E4 /* Debug */,
+				7438868D26F59B43005389E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7438868E26F59B43005389E4 /* Build configuration list for PBXNativeTarget "CardiffAir app (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7438868F26F59B43005389E4 /* Debug */,
+				7438869026F59B43005389E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7438869126F59B43005389E4 /* Build configuration list for PBXNativeTarget "CardiffAir app (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7438869226F59B43005389E4 /* Debug */,
+				7438869326F59B43005389E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7438869426F59B43005389E4 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7438869526F59B43005389E4 /* Debug */,
+				7438869626F59B43005389E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7438869726F59B43005389E4 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7438869826F59B43005389E4 /* Debug */,
+				7438869926F59B43005389E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7438865826F59B40005389E4 /* Project object */;
+}
